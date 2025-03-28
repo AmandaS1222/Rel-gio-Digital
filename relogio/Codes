@@ -1,0 +1,6 @@
+#SetInterval
+#new Date()
+#getHours()
+#getMinutes()
+#getSecondes()
+#

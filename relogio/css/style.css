@@ -1,0 +1,41 @@
+@font-face {
+    font-family: relogio-fofo;
+    src: url('/fonts/Backso.ttf');
+}
+
+
+body {
+    background: linear-gradient(#dbdada, #8e8e8e, #252525);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    width: 450px;
+    border: 0px solid black;
+    border-radius: 14px;
+    box-shadow: 3px 3px 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.central div {
+    color: white;
+    font-size: 85px;
+    font-family: relogio-fofo;
+    height: 150px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.central span {
+    color: white;
+    font-size: 65px;
+}
